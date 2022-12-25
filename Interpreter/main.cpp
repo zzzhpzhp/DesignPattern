@@ -14,7 +14,7 @@ std::string resultInterpret(bool res)
 
 int main()
 {
-    std::cout << ">>>>>>>> Interpret pattern <<<<<<<<" << std::endl;
+    std::cout << ">>>>>>>> Interpreter pattern <<<<<<<<" << std::endl;
 
     auto red = std::make_shared<interpreter_ns::TerminalExpression>("red");
     auto green = std::make_shared<interpreter_ns::TerminalExpression>("green");
